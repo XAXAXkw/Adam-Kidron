@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="../assets/logo_adam_1.svg" class="logo">
+    <HelloWorld msg="ADAM KIDRON"/>
   </div>
 </template>
 
@@ -16,3 +16,9 @@ export default {
   }
 }
 </script>
+<style type="css">
+.logo{
+  height:300px;
+
+}
+</style>
