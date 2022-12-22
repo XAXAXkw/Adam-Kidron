@@ -2,7 +2,7 @@
   <div class="hello">
   <div class="container d-block">
   <span>
- <h1>{{ msg }}</h1> <h6 style="color:orange"> - Disruptive Culture - </h6></span></div>
+ <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight:bold;color:#424242">{{ msg }}</h1> <h6 style="color:orange"> - Disruptive Culture - </h6></span></div>
    
     <p>
       For a guide and recipes on how to configure / customize this project,<br>

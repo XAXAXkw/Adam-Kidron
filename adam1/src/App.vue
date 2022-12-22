@@ -1,6 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
+    <router-link to="/projectscat">Projects</router-link> |
+    <router-link to="/contactcomp">Contact</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
@@ -18,9 +20,16 @@ a {
   color: orange;
   text-shadow: 1px 1px 10px orange;
 }
+a:hover {
+  color: lightyellow;
+  text-shadow: 1px 1px 10px orange;
+}
+p{
+  font-size: 10px;
+}
 
 nav {
-  padding: 10px;
+  padding-bottom: 50px;
 }
 
 nav a {
