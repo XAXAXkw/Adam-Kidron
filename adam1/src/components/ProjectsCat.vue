@@ -108,6 +108,7 @@
 .card{
     background: rgb(255, 255, 255);
 background: radial-gradient(circle, rgb(255, 179, 0) 0%, rgb(255, 255, 255) 50%);
+margin:5px;
 }
 
 </style>

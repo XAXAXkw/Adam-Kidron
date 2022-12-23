@@ -1,9 +1,12 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/projectscat">Projects</router-link> |
-    <router-link to="/contactcomp">Contact</router-link> |
-    <router-link to="/about">About</router-link>
+  <h6>   <router-link to="/">HOME</router-link> |
+    <router-link to="/projectscat">PROJECTS</router-link> |</h6>
+  <p>    <router-link to="/contactcomp">Contact</router-link> |
+    <router-link to="/betazone">BetaZone</router-link> |
+    <router-link to="/about">About</router-link></p>
+ 
+
   </nav>
   <router-view/>
 </template>
@@ -19,6 +22,7 @@
 a {
   color: orange;
   text-shadow: 1px 1px 10px orange;
+  text-decoration: none !important;
 }
 a:hover {
   color: lightyellow;
@@ -35,10 +39,12 @@ nav {
 nav a {
   font-weight: bold;
   color: grey;
+
 }
 
 nav a.router-link-exact-active {
   color: orange;
   text-shadow: 1px 1px 10px orange;
+  text-decoration: none;
 }
 </style>

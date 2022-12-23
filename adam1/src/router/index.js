@@ -24,7 +24,13 @@ const routes = [
     name: 'about',
 
     component: () => import('../views/AboutView.vue')
-  }
+  },
+   {
+    path: '/betazone',
+    name: 'betazone',
+
+    component: () => import('../components/BetaZone.vue')
+  },
 ]
 
 const router = createRouter({
