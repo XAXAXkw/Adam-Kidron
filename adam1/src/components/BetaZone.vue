@@ -1,8 +1,11 @@
 <template>
     <div>
-    <hr />
-<div class="container">
 <h1>BetaZone</h1>
+    <hr />
+
+    <ToDo />
+<div class="container">
+
 <div class="container border border-dark m-4 p-1">
 <div class="row p-2">
 
@@ -66,13 +69,15 @@ v-for="(item, index) in LIST"
 </template>
 
 <script>
+import ToDo from '../components/ToDo.vue'
 import {mapState} from 'vuex';
 
     export default {
         name:'BetaZone',
         computed:{
             ...mapState(['USERLIST','LIST','data1'])
-        }
+        },
+        components:{ToDo}
 
     }
 </script>
