@@ -31,6 +31,9 @@ a:hover {
 p{
   font-size: 10px;
 }
+h5,h6{
+  font-family: monospace;
+}
 
 nav {
   padding-bottom: 50px;
