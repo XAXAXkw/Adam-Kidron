@@ -2,7 +2,7 @@
     <div>
 <h1>BetaZone</h1>
     <hr />
-
+        <CarouselOne />
     <ToDo />
 <div class="container">
 
@@ -69,6 +69,7 @@ v-for="(item, index) in LIST"
 </template>
 
 <script>
+import CarouselOne from '../components/CarouselOne.vue'
 import ToDo from '../components/ToDo.vue'
 import {mapState} from 'vuex';
 
@@ -77,7 +78,7 @@ import {mapState} from 'vuex';
         computed:{
             ...mapState(['USERLIST','LIST','data1'])
         },
-        components:{ToDo}
+        components:{ToDo, CarouselOne}
 
     }
 </script>
